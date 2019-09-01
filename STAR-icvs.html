@@ -1,0 +1,436 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- saved from url=(0055)https://www.star.nesdis.noaa.gov/icvs/status_NPP_sc.php -->
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta http-equiv="Content-Style-Type" content="text/css">
+
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<link rel="P3Pv1" href="http://www.star.nesdis.noaa.gov/w3c/p3p.xml">
+<title>STAR ICVS Long-Term Monitoring - Instrument Status - NPP Spacecraft </title>
+<!--// ICVS / EDR version of the STAR styleLinks.inc global include - for status pages //-->
+<link rel="shortcut icon" href="https://www.star.nesdis.noaa.gov/icvs/globalIncludes/images/favicon2.ico">
+<link rel="stylesheet" href="./STAR-icvs_files/combinedStyles.min.css">
+<link rel="stylesheet" href="./STAR-icvs_files/print.css" media="print">
+<link rel="stylesheet" href="./STAR-icvs_files/local.css">
+<!-- include jQuery library, UI, themes -->
+<link rel="stylesheet" type="text/css" href="./STAR-icvs_files/jquery-ui.min.css">
+<link rel="stylesheet" type="text/css" href="./STAR-icvs_files/jquery-ui.structure.min.css">
+<link rel="stylesheet" type="text/css" href="./STAR-icvs_files/jquery-ui.theme.min.css">
+<link rel="stylesheet" type="text/css" href="./STAR-icvs_files/dataTables.jqueryui.min.css">
+<script type="text/javascript" async="" src="./STAR-icvs_files/analytics.js.下载"></script><script async="" src="./STAR-icvs_files/analytics.js.下载"></script><script type="text/javascript" src="./STAR-icvs_files/jquery-2.1.4.min.js.下载"></script>
+<script type="text/javascript" src="./STAR-icvs_files/jquery-ui.min.js.下载"></script>
+<script type="text/javascript" src="./STAR-icvs_files/jquery.dataTables.min.js.下载"></script>
+<script type="text/javascript" src="./STAR-icvs_files/dataTables.jqueryui.min.js.下载"></script>
+<!--// END - DATA TABLES INITIALIZATION + JQUERY UI //-->
+<!--// federated analytics tag required for all NOAA sites for OMB traffic logging - Google analytics. Modify as needed for internal use. //-->
+<script id="_fed_an_ua_tag" type="text/javascript" src="./STAR-icvs_files/federated-analytics.js.下载"></script>
+<meta http-equiv="x-ua-compatible" content="IE=IE8">
+<!--[if lt IE 9]>
+	<link rel="stylesheet" type="text/css" href="css/ie8-and-down.css">
+<![endif]-->
+<!--// unobtrusive datepicker: https://github.com/freqdec/datePicker v6.3.6 MIT/GPL2 ** used to be datePickerOnly.inc -->
+<script type="text/javascript" src="./STAR-icvs_files/en-US.js.下载"></script>
+<script type="text/javascript" src="./STAR-icvs_files/datepicker.min.js.下载">{"describedby":"fd-dp-aria-describedby"}</script>
+<link href="./STAR-icvs_files/datepicker.min.css" rel="stylesheet" type="text/css">
+<!--// end of datepicker - START of FancyBox 2.1.5 - block added 6/27/2016 //-->
+<link rel="stylesheet" href="./STAR-icvs_files/jquery.fancybox.css" type="text/css" media="screen">
+<script type="text/javascript" src="./STAR-icvs_files/jquery.fancybox.pack.js.下载"></script>
+<!--// END FancyBox 2.1.5 //-->
+ 
+<script type="text/javascript" src="./STAR-icvs_files/getImage.min.js.下载"></script>
+<meta name="description" content="NPP Spacecraft , Integrated Calibration/Validation System - Long-Term Monitoring, NOAA instrument status monitoring - Center for Satellite Applications and Research">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="./STAR-icvs_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-136355923-1');
+</script>
+
+</head>
+<body>
+	<div id="wrap">
+	<div class="outline">
+			<div id="header"><div><img src="./STAR-icvs_files/ICVS_banner_2015LowProfile.jpg" id="banner" usemap="#logo" alt="STAR Integrated Calibration/Validation System website banner" title="STAR Integrated Calibration / Validation Website"></div>
+		</div>
+		<map name="logo">
+		<area shape="rect" coords="0,0,800,90" href="https://www.star.nesdis.noaa.gov/icvs/index.php" alt="STAR Integrated Calibration/Validation System website" title="STAR Integrated Calibration/Validation System website"></map>
+
+
+
+
+		<div id="navContainer">
+						<div id="leftNav">
+		<ul>
+			<li><a href="https://www.star.nesdis.noaa.gov/icvs/index.php">STAR ICVS Home</a>
+				<ul class="detailContainer" style="display: none;">
+					<li><a href="https://www.star.nesdis.noaa.gov/icvs-team/about.php">About ICVS</a></li>
+					<li><a href="https://www.star.nesdis.noaa.gov/icvs-team/personnel.php">Personnel</a></li>
+					<li><a href="https://www.star.nesdis.noaa.gov/icvs-team/SuomiNPP_instruments.php">NPP Instrument Descriptions</a></li>
+					<!--<li><a href="../icvs-team/teamMeetings.php">Meetings</a></li> -->
+					<li><a href="https://www.star.nesdis.noaa.gov/jpss/index.php">STAR JPSS Home</a></li>
+					<li><a href="https://www.star.nesdis.noaa.gov/icvs-team/ExternalResearchContrib.php">Research Contributions</a></li>
+				</ul>
+			</li>
+		</ul>
+		<div class="expanded">
+			<ul>
+				<li><strong>On-orbit Events &amp; Anomalies</strong>
+					<ul class="detailContainer" style="display: none;">
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/SNPP_Anomalies.php">Suomi NPP</a></li>
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/N20_Anomalies.php">NOAA-20</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<!--//<ul>
+			<li><a href="../icvs-app/index.php">ICVS Severe Weather Watch</a></li>
+		</ul>//-->
+		<div class="expanded" id="IPM">
+			<ul id="IPM_detail" class="showDetailContainer">
+				<li class="instr"><strong>NOAA-20</strong>
+					<ul>
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/status_N20_sc.php">Spacecraft</a></li>
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/status_N20_ATMS.php">ATMS</a></li>
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/status_N20_CrIS.php">CrIS</a></li>
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/status_N20_CrIS_FSR.php" title="CrIS full spectral resolution">CrIS FSR</a></li>
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/status_N20_VIIRS.php">VIIRS</a></li>
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/status_N20_OMPS_NM.php">OMPS Nadir Mapper</a></li>
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/status_N20_OMPS_NP.php">OMPS Nadir Profiler</a></li>
+					</ul>
+				</li>
+				<li class="instr"><strong>Suomi NPP</strong>
+					<ul class="showDetailContainer">
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/status_NPP_sc.php" title="this is the current page" id="activeLink">Spacecraft &gt;&gt;</a></li>
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/status_NPP_ATMS.php">ATMS</a></li>
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/status_NPP_CrIS.php">CrIS</a></li>
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/status_NPP_CrIS_FSR.php" title="CrIS full spectral resolution">CrIS FSR</a></li>
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/status_NPP_VIIRS.php">VIIRS</a></li>
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/status_NPP_OMPS_NM.php">OMPS Nadir Mapper</a></li>
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/status_NPP_OMPS_NP.php">OMPS Nadir Profiler</a></li>
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/status_NPP_OMPS_LP.php">OMPS Limb Profiler</a></li>
+					</ul>
+				</li>
+				<li class="instr"><strong>MetOp-B</strong>
+					<ul>
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/status_MetOPB_AMSUA.php">AMSU-A</a></li>
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/status_MetOPB_MHS.php">MHS</a></li>
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/status_MetOPB_AVHRR.php">AVHRR</a></li>
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/status_MetOPB_HIRX.php">HIRS</a></li>
+					</ul>
+				</li>
+				<li class="instr"><strong>NOAA-19</strong>
+					<ul>
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/status_N19_AMSUA.php">AMSU-A</a></li>
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/status_N19_MHS.php">MHS</a></li>
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/status_N19_AVHRR.php">AVHRR</a></li>
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/status_N19_HIRS.php">HIRS</a></li>
+					</ul>
+				</li>
+				<li class="instr"><strong>MetOp-A</strong>
+					<ul>
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/status_MetOPA_AMSUA.php">AMSU-A</a></li>
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/status_MetOPA_MHS.php">MHS</a></li>
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/status_MetOPA_AVHRR.php">AVHRR</a></li>
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/status_MetOPA_HIRX.php">HIRS</a></li>
+					</ul>
+				</li>
+				<li class="instr"><strong>NOAA-18</strong>
+					<ul>
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/status_N18_AMSUA.php">AMSU-A</a></li>
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/status_N18_MHS.php">MHS</a></li>
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/status_N18_AVHRR.php">AVHRR</a></li>
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/status_N18_HIRS.php">HIRS</a></li>
+					</ul>
+				</li>
+				<li class="instr"><strong>NOAA-15</strong>
+					<ul>
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/status_N15_AMSUA.php">AMSU-A</a></li>
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/status_N15_AVHRR.php">AVHRR</a></li>
+						<li><a href="https://www.star.nesdis.noaa.gov/icvs/status_N15_HIRS.php">HIRS</a></li>
+					</ul>
+				</li>
+			</ul>
+			<ul>
+				<li><strong><a href="https://www.star.nesdis.noaa.gov/GOESCal/index.php" target="_blank">GOES ICVS</a></strong></li>
+			</ul>
+			<ul>
+				<li><strong><a href="https://ncc.nesdis.noaa.gov/GNSSRO/ICVS/index.php" target="_blank">Radio Occultation</a></strong></li>
+			</ul>
+		</div>
+	</div>
+	<div class="noticeBox">
+		<h4 id="disclaimer">Data and images displayed on STAR sites 
+		are provided for experimental use only and are
+		not official operational NOAA products. 
+		&nbsp;<a href="http://www.star.nesdis.noaa.gov/star/productdisclaimer.php">More information&gt;&gt;</a></h4>
+		
+	</div><br>&nbsp;
+<!-- end of nav content -->
+			</div>
+		<div id="main">
+			<div class="mainInner">
+			    	<noscript><h3 class="noscriptWarning">Javascript is currently disabled on 
+    	this computer. Without javascript, some display enhancements do not work;
+    	however, all content is fully visible and accessible.</h3></noscript>
+    	<a name="skipTarget"></a>
+ 				<div id="metricInfo">
+		<div id="rightMI">
+			<div id="activateDayView">
+			<a href="https://www.star.nesdis.noaa.gov/icvs/status_NPP_sc.php#" class="popupButton" id="FinderButton" title="">Finder</a><a href="https://www.star.nesdis.noaa.gov/icvs/status_NPP_sc.php#" title="Load an animation of all products for a single date" onclick="passDate();">Animate All Products</a><a title="Load an animation of a single product for a selected range of dates" href="https://www.star.nesdis.noaa.gov/icvs/status_NPP_sc.php#" id="startAnimation">Animate Selected Product</a>
+			</div>
+		</div>
+		<div id="leftMI">
+		<h1>NPP Spacecraft </h1>
+			<h3 class="timeBlock">31 Aug 2019 - 22:04 ET&nbsp;&nbsp;/&nbsp;&nbsp;02:04 UTC</h3>
+		</div>
+		<div class="clearing">&nbsp;</div>
+	</div>
+	<div class="clearing">&nbsp;</div>
+ 
+			<div id="displayBox">
+			      <form name="selectID643134" id="selectID643134" action="https://www.star.nesdis.noaa.gov/icvs/status_NPP_sc.php">
+			<div style="height: 1px; width: 1px;">
+			<input type="hidden" id="satellite_instr" value="NPP Spacecraft ">
+			<input type="hidden" id="timeScope" value="daily"></div>
+<div class="picker" id="parameterBox"><label for="parameter">Select a parameter:</label>
+	<select name="parameter" id="parameter">
+			<option value="CID916184Container">S/C Orbit State Telemetry</option>
+			<option value="CID823814Container">S/C CDH-RF Comm Telemetry</option>
+			<option value="CID889694Container">S/C HRD Transmitter Telemetry</option>
+			<option value="CID582164Container">S/C Bus Critical Telemetry</option>
+			<option value="CID786698Container">S/C ADCS Housekeeping High Rate Telemetry</option>
+			<option value="CID518944Container">S/C DSEP Instrument Power Control Telemetry</option>
+			<option value="CID333837Container">S/C PUMA Configuration Telemetry</option>
+			<option value="CID651677Container">S/C Temperature Telemetry</option>
+			<option value="CID775750Container">ATMS S/C Telemetry Temperature</option>
+			<option value="CID784652Container">CrIS S/C Telemetry Temperature</option>
+			<option value="CID634570Container">VIIRS S/C Telemetry Temperature</option>
+			<option value="CID242988Container">OMPS S/C Telemetry Temperature</option>
+			<option value="CID153166Container">CERES S/C Telemetry Temperature</option>
+			<option value="CID710666Container">Spacecraft Monitoring Parameters</option>
+			</select></div>
+<div class="selectBox firstSelectBoxDiv" id="CID916184Container"><label for="CID916184">S/C Orbit State Telemetry</label>
+<div class="incrementButton" title="Display previous image"><a class="incrLeft NoImage" href="javascript:void(0);">&lt;</a></div>
+<select class="imageList" name="CID916184" id="CID916184">
+<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid21_0.png">Beta Angle</option>
+		</select><div class="incrementButton" title="Display next image"><a class="incrRight NoImage" href="javascript:void(0);">&gt;</a></div><div class="clearing">&nbsp;</div></div>
+		<div class="selectBox" id="CID823814Container"><label for="CID823814">S/C CDH-RF Comm Telemetry</label>
+		<div class="incrementButton" title="Display previous image"><a class="incrLeft NoImage" href="javascript:void(0);">&lt;</a></div>
+	<select class="imageList" name="CID823814" id="CID823814">
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_diary_apid0_23.png">Command RX 1 Baseplate Temperature</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_diary_apid0_24.png">Command RX 2 Baseplate Temperature</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_diary_apid0_25.png">Command Receiver 1 Signal Strength</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_diary_apid0_26.png">Command Receiver 2 Signal Strength</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_diary_apid0_27.png">Command Receiver 1 Loop Stress</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_diary_apid0_28.png">Command Receiver 2 Loop Stress</option>
+		</select><div class="incrementButton" title="Display next image"><a class="incrRight NoImage" href="javascript:void(0);">&gt;</a></div><div class="clearing">&nbsp;</div></div>
+		<div class="selectBox" id="CID889694Container"><label for="CID889694">S/C HRD Transmitter Telemetry</label>
+		<div class="incrementButton" title="Display previous image"><a class="incrLeft NoImage" href="javascript:void(0);">&lt;</a></div>
+	<select class="imageList" name="CID889694" id="CID889694">
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid3_0.png">HRD Tx 1 RF Signal Strength - Derived</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid3_1.png">HRD Tx 2 RF Signal Strength - Derived</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid3_2.png">NB Tlm Tx 1 RF Signal Strength - Derived</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid3_3.png">NB Tlm Tx 2 RF Signal Strength - Derived</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid3_4.png">SMD Tx 1 RF Signal Strength - Derived</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid3_5.png">SMD Tx 2 RF Signal Strength - Derived</option>
+		</select><div class="incrementButton" title="Display next image"><a class="incrRight NoImage" href="javascript:void(0);">&gt;</a></div><div class="clearing">&nbsp;</div></div>
+		<div class="selectBox" id="CID582164Container"><label for="CID582164">S/C Bus Critical Telemetry</label>
+		<div class="incrementButton" title="Display previous image"><a class="incrLeft NoImage" href="javascript:void(0);">&lt;</a></div>
+	<select class="imageList" name="CID582164" id="CID582164">
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_diary_apid0_0.png">PUMA Bus Voltage</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_diary_apid0_1.png">PUMA Total Bus Current</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_diary_apid0_2.png">PUMA Battery 1 Voltage</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_diary_apid0_3.png">PUMA Battery 2 Voltage</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_diary_apid0_4.png">PUMA Battery 1 Pressure</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_diary_apid0_5.png">PUMA Battery 2 Pressure</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_diary_apid0_6.png">Wheel 1 Speed/Direction</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_diary_apid0_7.png">Wheel 2 Speed/Direction</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_diary_apid0_8.png">Wheel 3 Speed/Direction</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_diary_apid0_9.png">Wheel 4 Speed/Direction</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_diary_apid0_10.png">Gyro(TARA) 1 Motor Current</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_diary_apid0_11.png">Gyro(TARA) 2 Motor Current</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_diary_apid0_12.png">Gyro(TARA) 3 Motor Current</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_diary_apid0_13.png">Reaction Wheel 1 Motor Current</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_diary_apid0_14.png">Reaction Wheel 2 Motor Current</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_diary_apid0_15.png">Reaction Wheel 3 Motor Current</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_diary_apid0_16.png">Reaction Wheel 4 Motor Current</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_diary_apid0_17.png">System Pressure </option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_diary_apid0_18.png">Propulsion Deck -Z Temperature</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_diary_apid0_19.png">Propulsion Tank Temperature (Gas Side)</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_diary_apid0_20.png">Control Frame Rate X</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_diary_apid0_21.png">Control Frame Rate Y</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_diary_apid0_22.png">Control Frame Rate Z</option>
+		</select><div class="incrementButton" title="Display next image"><a class="incrRight NoImage" href="javascript:void(0);">&gt;</a></div><div class="clearing">&nbsp;</div></div>
+		<div class="selectBox" id="CID786698Container"><label for="CID786698">S/C ADCS Housekeeping High Rate Telemetry</label>
+		<div class="incrementButton" title="Display previous image"><a class="incrLeft NoImage" href="javascript:void(0);">&lt;</a></div>
+	<select class="imageList" name="CID786698" id="CID786698">
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_diary_apid8_0.png">Star Tracker Maximum Residual</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_diary_apid8_1.png">Total System Momentum 1</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_diary_apid8_2.png">Total System Momentum 2</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_diary_apid8_3.png">Total System Momentum 3</option>
+		</select><div class="incrementButton" title="Display next image"><a class="incrRight NoImage" href="javascript:void(0);">&gt;</a></div><div class="clearing">&nbsp;</div></div>
+		<div class="selectBox" id="CID518944Container"><label for="CID518944">S/C DSEP Instrument Power Control Telemetry</label>
+		<div class="incrementButton" title="Display previous image"><a class="incrLeft NoImage" href="javascript:void(0);">&lt;</a></div>
+	<select class="imageList" name="CID518944" id="CID518944">
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid7_1.png">DSEP 1 ATMS Current</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid7_2.png">DSEP 1 CERES Current</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid7_3.png">DSEP 1 CrIS Current</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid7_4.png">DSEP 1 OMPS Current</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid7_5.png">DSEP 2 VIIRS Current</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid7_atms.png">DSEP 1 ATMS Current - 8 Second Separated</option>
+		</select><div class="incrementButton" title="Display next image"><a class="incrRight NoImage" href="javascript:void(0);">&gt;</a></div><div class="clearing">&nbsp;</div></div>
+		<div class="selectBox" id="CID333837Container"><label for="CID333837">S/C PUMA Configuration Telemetry</label>
+		<div class="incrementButton" title="Display previous image"><a class="incrLeft NoImage" href="javascript:void(0);">&lt;</a></div>
+	<select class="imageList" name="CID333837" id="CID333837">
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid6_1.png">PUMA 1 Payload Bus Current</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid6_2.png">PUMA 2 Payload Bus Current</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid6_3.png">PUMA 1 Array Current</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid6_4.png">PUMA 2 Array Current</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid6_5.png">PUMA 1 Array Temperature 1</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid6_6.png">PUMA 1 Array Temperature 2</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid6_7.png">PUMA 2 Array Temperature 3</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid6_8.png">PUMA 1 Bus Voltage</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid6_9.png">PUMA 2 Bus Voltage</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid6_10.png">PUMA 1 Essential Bus Current</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid6_11.png">PUMA 1 Safe Mode Bus Current</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid6_12.png">PUMA 1 NEB/HZB Current</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid6_13.png">PUMA RDA Temperature</option>
+		</select><div class="incrementButton" title="Display next image"><a class="incrRight NoImage" href="javascript:void(0);">&gt;</a></div><div class="clearing">&nbsp;</div></div>
+		<div class="selectBox" id="CID651677Container"><label for="CID651677">S/C Temperature Telemetry</label>
+		<div class="incrementButton" title="Display previous image"><a class="incrLeft NoImage" href="javascript:void(0);">&lt;</a></div>
+	<select class="imageList" name="CID651677" id="CID651677">
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_1.png">Temp. Telemetry TX 1 Baseplate</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_2.png">Temp. Telemetry TX 2 Baseplate</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_3.png">Temp. HRD TX 1 Baseplate</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_4.png">Temp. HRD TX 2 Baseplate</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_5.png">Temp. SMD TX 1 Baseplate</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_6.png">Temp. SMD TX 2 Baseplate</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_7.png">Temp. RDA</option>
+		</select><div class="incrementButton" title="Display next image"><a class="incrRight NoImage" href="javascript:void(0);">&gt;</a></div><div class="clearing">&nbsp;</div></div>
+		<div class="selectBox" id="CID775750Container"><label for="CID775750">ATMS S/C Telemetry Temperature</label>
+		<div class="incrementButton" title="Display previous image"><a class="incrLeft NoImage" href="javascript:void(0);">&lt;</a></div>
+	<select class="imageList" name="CID775750" id="CID775750">
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_atms_all.png">ATMS 10-Day All Indices Summary</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_atms_1.png">ATMS G-Band RX Shelf Temperature</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_atms_2.png">ATMS Scan Drive Mechanism Temperature</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_atms_3.png">ATMS Baseplate Temperature</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_atms_4.png">ATMS Calib. Target Bench Temperature</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_atms_5.png">ATMS V-Band RX Shelf Temperature</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_atms_6.png">Coldplate Operational Temp. via DSEP ECC 1</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_atms_7.png">Coldplate Operational Temp. via DSEP ECC 2</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_atms_8.png">Coldplate Operational Heater Deadband via DSEP ECC 1</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_atms_9.png">Coldplate Operational Heater Deadband via DSEP ECC 2</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_atms_10.png">Coldplate Operational Heater Setpoint via DSEP ECC 1</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_atms_11.png">Coldplate Operational Heater Setpoint via DSEP ECC 2</option>
+		</select><div class="incrementButton" title="Display next image"><a class="incrRight NoImage" href="javascript:void(0);">&gt;</a></div><div class="clearing">&nbsp;</div></div>
+		<div class="selectBox" id="CID784652Container"><label for="CID784652">CrIS S/C Telemetry Temperature</label>
+		<div class="incrementButton" title="Display previous image"><a class="incrLeft NoImage" href="javascript:void(0);">&lt;</a></div>
+	<select class="imageList" name="CID784652" id="CID784652">
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_cris_all.png">CrIS 10-Day All Indices Summary</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_cris_1.png">CrIS Sensor I/F 1 Temperature</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_cris_2.png">CrIS Sensor I/F 2 Temperature</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_cris_3.png">CrIS Structure Near Survival Heater Temperature</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_cris_4.png">CrIS PCE Temperature</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_cris_5.png">CrIS Interferometer Electronics Temperature</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_cris_6.png">CrIS SSM Temperature</option>
+		</select><div class="incrementButton" title="Display next image"><a class="incrRight NoImage" href="javascript:void(0);">&gt;</a></div><div class="clearing">&nbsp;</div></div>
+		<div class="selectBox" id="CID634570Container"><label for="CID634570">VIIRS S/C Telemetry Temperature</label>
+		<div class="incrementButton" title="Display previous image"><a class="incrLeft NoImage" href="javascript:void(0);">&lt;</a></div>
+	<select class="imageList" name="CID634570" id="CID634570">
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_viirs_all.png">VIIRS 10-Day All Indices Summary</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_viirs_1.png">VIIRS Sensor I/F 1 Temperature</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_viirs_2.png">VIIRS Sensor I/F 2 Temperature</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_viirs_3.png">VIIRS Telescope Motor Survival Heater Temperature</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_viirs_4.png">VIIRS Aft Optics Housing Temperature</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_viirs_5.png">VIIRS EM Coldplate Temperature</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_viirs_6.png">VIIRS EM Nadir Panel Temperature</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_viirs_7.png">VIIRS Coldplate Temperature via DSEP ECC 1</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_viirs_8.png">VIIRS Coldplate Temperature via DSEP ECC 2</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_viirs_9.png">Electronics Coldplate Heater Deadband via DSEP ECC 1</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_viirs_10.png">Electronics Coldplate Heater Deadband via DSEP ECC 2</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_viirs_11.png">Electronics Coldplate Heater Setpoint via DSEP ECC 1</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_viirs_12.png">Electronics Coldplate Heater Setpoint via DSEP ECC 2</option>
+		</select><div class="incrementButton" title="Display next image"><a class="incrRight NoImage" href="javascript:void(0);">&gt;</a></div><div class="clearing">&nbsp;</div></div>
+		<div class="selectBox" id="CID242988Container"><label for="CID242988">OMPS S/C Telemetry Temperature</label>
+		<div class="incrementButton" title="Display previous image"><a class="incrLeft NoImage" href="javascript:void(0);">&lt;</a></div>
+	<select class="imageList" name="CID242988" id="CID242988">
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_omps_all.png">OMPS 10-Day All Indices Summary</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_omps_1.png">OMPS Sensor I/F 1 Temperature</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_omps_2.png">OMPS Sensor I/F 2 Temperature</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_omps_3.png">OMPS Total Column Thermistor Temperature  </option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_omps_4.png">OMPS Nadir Profiler Thermistor Temperature</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_omps_5.png">OMPS Limb Thermistor Temperature</option>
+		</select><div class="incrementButton" title="Display next image"><a class="incrRight NoImage" href="javascript:void(0);">&gt;</a></div><div class="clearing">&nbsp;</div></div>
+		<div class="selectBox" id="CID153166Container"><label for="CID153166">CERES S/C Telemetry Temperature</label>
+		<div class="incrementButton" title="Display previous image"><a class="incrLeft NoImage" href="javascript:void(0);">&lt;</a></div>
+	<select class="imageList" name="CID153166" id="CID153166">
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_ceres_all.png">CERES 10-Day All Index Summary</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_ceres_1.png">CERES Detector Survival Temperature - Primary</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_ceres_2.png">CERES ICA Survival Temperature - Primary</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_ceres_3.png">CERES PCA Survival Temperature - Primary</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc/" value="npp_sc_telemetry_apid4_ceres_4.png">CERES Interface Temperature</option>
+		</select><div class="incrementButton" title="Display next image"><a class="incrRight NoImage" href="javascript:void(0);">&gt;</a></div><div class="clearing">&nbsp;</div></div>
+		<div class="selectBox" id="CID710666Container"><label for="CID710666">Spacecraft Monitoring Parameters</label>
+		<div class="incrementButton" title="Display previous image"><a class="incrLeft NoImage" href="javascript:void(0);">&lt;</a></div>
+	<select class="imageList" name="CID710666" id="CID710666">
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc_text/" value="NPP_SC_DIARY.zip"> Daily Scan Level Spacecraft Monitoring - Diary</option>
+			<option class="/smcd/icvs_metrics/status/NPP/NPP_sc_text/" value="NPP_SC_TELEMETRY.zip"> Daily Scan Level Spacecraft Monitoring - Telemetry</option>
+</select><div class="incrementButton" title="Display next image"><a class="incrRight NoImage" href="javascript:void(0);">&gt;</a></div>
+<div class="clearing">&nbsp;</div></div>
+<!--// END selectGenerator2014.inc //-->
+<div class="dateSelectContainer">
+	<div class="stepButton" id="previous" title="Display previous day&#39;s image"><a id="stepLeft" onclick="dayIncr(&#39;-1&#39;);" href="javascript:void(0);" class="NoImage">&lt;</a></div>
+	<div class="dateBox" id="dateBox">
+		<label for="datePick" id="datePick_label">Select a Date:</label>
+		<input type="text" class="w8em" id="datePick" name="datePick" maxlength="10" style="width: 6em;"><a href="https://www.star.nesdis.noaa.gov/icvs/status_NPP_sc.php#datePick" class="date-picker-control" title="Open Calendar" id="fd-but-datePick" role="button" aria-haspopup="true" tabindex="0"><span>&nbsp;</span><span class="fd-screen-reader">Open Calendar</span></a>
+	</div>
+	<script type="text/javascript">
+		datePickerController.createDatePicker({                            
+	    formElements:{ "datePick":"%m-%d-%Y" },
+			// Set range min: YYYYMMDD
+			rangeLow:"20111101",
+			// Set range max: YYYYMMDD
+			rangeHigh:"20190901",
+			// callbackFunction added 7/17/2013
+			callbackFunctions:{"datereturned":[dayIncrZeroCase]}
+	    });
+	</script>
+	<div class="stepButton" id="next" title="Display next day&#39;s image"><span id="stepRight" class="nextOff">&gt;</span></div>
+	<!--// new submit button 11/10/2017 for GRAVITE //-->
+	<div id="submitBox"><a href="javascript:void(0);" id="submitButton" class="submitLink NoImage" title="submit a manually entered date">Submit</a></div>
+	<div class="clearing">&nbsp;</div></div>
+				</form><!--// tag opens in selectGenerator2014.inc //-->
+			<div class="clearing">&nbsp;</div>
+			<div id="textContainer"><!--// container for text-type calibration products. //--></div>
+			<a href="./STAR-icvs_files/20190831_npp_sc_telemetry_apid21_0.png" class="FB"><img src="./STAR-icvs_files/20190831_npp_sc_telemetry_apid21_0.png" alt="NPP Spacecraft  - S/C Orbit State Telemetry - Beta Angle - 08/31/2019" title="NPP Spacecraft  - S/C Orbit State Telemetry - Beta Angle - 08/31/2019" name="displayImage1" id="displayImage1"></a>
+<input type="hidden" id="defaultImageValuePasser" title="/smcd/icvs_metrics/status/NPP/NPP_sc/2019/08/20190831_npp_sc_telemetry_apid21_0.png">
+<input type="hidden" id="cursorDatePasser" value="20190831">
+<input type="hidden" id="filenameStub" value="npp_sc_telemetry_apid21_0.png">
+<input type="hidden" id="imageFullPath" value="x">
+<input type="hidden" id="imageRealTitle" value="y">
+			<div id="errorTextContainer"></div>
+		</div>
+	</div>
+</div>
+		<div id="footer">
+ 			<div id="bottomBanner">
+				<div class="left">
+				 					<a href="https://www.doc.gov/">Dept.&nbsp;of&nbsp;Commerce</a>&nbsp;|&nbsp;<a href="https://www.noaa.gov/" title="National Oceanic and Atmospheric Administration">NOAA</a>&nbsp;|&nbsp;<a href="https://www.nesdis.noaa.gov/" title="National Environmental Satellite, Data, and Information Service">NESDIS</a>&nbsp;|&nbsp;Website&nbsp;owner:&nbsp;<a href="https://www.star.nesdis.noaa.gov/" title="Website owner: Center for Satellite Applications and Research">STAR</a>&nbsp;|&nbsp;<a href="https://www.star.nesdis.noaa.gov/star/productdisclaimer.php">Link&nbsp;&amp;&nbsp;product&nbsp;disclaimers</a>&nbsp;|&nbsp;<a href="https://www.star.nesdis.noaa.gov/star/accessibility.php">Accessibility</a><br>
+					<a href="https://search.usa.gov/search?affiliate=orbit.nesdis.noaa.gov_star">Search</a>&nbsp;|&nbsp;<a href="https://www.star.nesdis.noaa.gov/star/survey.php">Customer&nbsp;Survey</a>&nbsp;|&nbsp;<a href="https://www.star.nesdis.noaa.gov/star/privacy.php">Privacy</a>&nbsp;|&nbsp;<a href="http://www.cio.noaa.gov/services_programs/info_quality.html">Information&nbsp;quality</a>
+ 					
+ 					
+ 					&nbsp;|&nbsp;<a href="mailto:ninghai.sun@noaa.gov">Webmaster</a>&nbsp;|&nbsp;Modified: March 18, 2019</div>
+				<div class="right">
+				<img usemap="#validation" id="valid" src="./STAR-icvs_files/validationCombo.png" style="border: 0px;" alt="Level A conformance icon, W3C-WAI Web Content Accessibility Guidelines 1.0 and Valid HTML 4.01 Icon"></div>
+				<div class="clearing"></div>
+				</div>
+		<script src="./STAR-icvs_files/footerScripts.min.js.下载" type="text/javascript"></script>
+		<map name="validation">
+			<area shape="rect" coords="0,0,70,25" href="https://validator.w3.org/check/referer" title="This page validates as HTML 4.01 Transitional." alt="icon: valid HTML 4.01 transitional.">
+			<area shape="rect" coords="74,0,147,25" href="https://www.w3.org/WAI/WCAG1A-Conformance" title="Explanation of Level A Conformance" alt="Level A conformance icon, W3C-WAI Web Content Accessibility Guidelines 1.0">
+		</map>
+</div>
+</div></div></body></html>

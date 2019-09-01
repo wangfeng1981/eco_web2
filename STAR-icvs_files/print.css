@@ -1,0 +1,8 @@
+/* print stylesheet - suppress navigation for printing */
+div#navContainer {
+	display: none;
+}
+#main {
+	padding: 0px;
+	margin: 0px !important;
+}
